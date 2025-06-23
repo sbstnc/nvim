@@ -13,6 +13,7 @@ return {
   { import = "astrocommunity.recipes.picker-nvchad-theme" },
   -- { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.editing-support.conform-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.pack.bash" },
