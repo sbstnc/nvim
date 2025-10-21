@@ -8,6 +8,7 @@ return {
       "float_win",
       "toggleterm",
     }, -- "float_win", "toggleterm", "telescope", "which-key", "renamer", "neo-tree", "nvim-tree", "bufferline"
+    ---@param c Colorscheme
     override = function(c)
       local color_helper = require "monokai-pro.color_helper"
       local common_fg = color_helper.lighten(c.sideBar.foreground, 30)
@@ -27,6 +28,15 @@ return {
         SnacksPickerKeymapRhs = { fg = c.base.dimmed3 },
         SnacksPickerGitStatusUntracked = { fg = c.base.dimmed3 },
         SnacksPickerGitStatusIgnored = { fg = c.base.dimmed3 },
+        NormalMoody = { fg = c.base.yellow },
+        InsertMoody = { fg = c.base.green },
+        VisualMoody = { fg = c.base.magenta },
+        CommandMoody = { fg = c.base.red },
+        OperatorMoody = { fg = c.base.red },
+        ReplaceMoody = { fg = c.base.red },
+        SelectMoody = { fg = c.base.magenta },
+        TerminalMoody = { fg = c.base.dimmed3 },
+        TerminalNormalMoody = { fg = c.base.dimmed3 },
       }
     end,
   },
