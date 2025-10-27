@@ -19,6 +19,6 @@ return {
       terminal = 0.25,
       terminal_n = 0.25,
     },
-    disabled_filetypes = { "TelescopePrompt", "snacks_picker_input", "snacks_dashboard" },
+    disabled_filetypes = { "TelescopePrompt", "snacks_picker_input", "snacks_dashboard", "neo-tree", "neo-tree-popup" },
   },
 }
